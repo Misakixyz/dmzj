@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestTextViewActivity">
+    <cn.carbs.android.expandabletextview.library.ExpandableTextView
+        android:id="@+id/etv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="怎么又到了周四，我开始留头发，减重，换风格，开始往前冲，不好意思阿，这一次，肯德基疯狂星期四，我一定要吃，我本是显赫世家的少爷，却被诡计多端的奸人所害！家人弃我！师门逐我！甚至断我灵脉!重生一世，今天肯德基疯狂星期四!谁请我吃？Bro 别他妈垂头丧气了 知道今天是什么日子吗？ 今天是肯德基fucking crazy Thursday！香辣热骨鸡20块钱15个 Bro v我40，我他妈要吃30个"
+        />
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">   //这里是写代码的，可以将top_page.xml和activity_home_menu.xml连接起来
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/background">
+        <ImageView
+            android:id="@+id/head_iv"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/girl"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"/>
+        <Button
+            android:id="@+id/btn_change"
+            android:layout_width="80dp"
+            android:layout_height="34dp"
+            android:layout_gravity="center"
+            android:layout_below="@+id/head_iv"
+            android:layout_centerInParent="true"
+            android:text="name "
+            android:background="#252525" />/白色背景按钮 点进去跳转个人界面
+    </RelativeLayout>
+
+
+
+    <Button
+        android:id="@+id/home_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_below="@+id/btn_change"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="30dp"
+        android:text="订阅"
+        android:textSize="23sp"
+        android:drawableLeft="@mipmap/mangasub1"
+        android:background="#252525"
+        />
+    <Button
+        android:id="@+id/home_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="0dp"
+        android:text="记录"
+        android:textSize="23sp"
+        android:drawableLeft="@mipmap/history"
+        android:background="#252525"/>
+
+    <Button
+        android:id="@+id/home_btn4"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+
+        android:layout_marginTop="0dp"
+        android:text="评论"
+        android:textSize="23sp"
+        android:drawableLeft="@mipmap/comment"
+        android:background="#252525"/>
+
+</LinearLayout>

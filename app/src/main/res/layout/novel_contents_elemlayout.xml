@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:orientation="vertical">
+    <!--     分割线           -->
+    <ImageView
+        android:layout_below="@+id/rl_cartoon_subscribe"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/split_line"/>
+    <TextView
+        android:id="@+id/tv_novel_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="章节"
+        android:textColor="@color/black"
+        />
+</LinearLayout>

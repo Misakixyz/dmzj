@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="10dp">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_news_image"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/news_recommend_1" />
+
+        <TextView
+            android:id="@+id/tv_news_name"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/iv_news_image"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="剧场版动画《回转企鹅罐》前篇4月29上映"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/iv_news_author"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/news_author" />
+
+        <TextView
+            android:id="@+id/tv_news_authorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_toRightOf="@id/iv_news_author"
+            android:text="上音"
+            android:textColor="#7E000000" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_news_like"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/tv_like_num"
+            android:src="@drawable/like_false" />
+
+        <TextView
+            android:id="@+id/tv_like_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/iv_news_comment"
+            android:text="0" />
+
+        <ImageView
+            android:id="@+id/iv_news_comment"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/tv_comment_num"
+            android:src="@drawable/comment" />
+
+        <TextView
+            android:id="@+id/tv_comment_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="60dp"
+            android:text="0"
+
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

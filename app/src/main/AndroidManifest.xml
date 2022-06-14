@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dmzj">
+    <!-- 使用网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 文件读写权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".GlobalUser"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Dmzj"
+        android:usesCleartextTraffic="true">
+
+        <activity android:name=".fragment_exhibition" />
+        <activity android:name=".fragment_sound" />
+        <activity android:name=".fragment_picture" />
+        <activity android:name=".fragment_novel" />
+        <activity android:name=".fragment_cartoon" />
+        <activity android:name=".fragment_animation" />
+        <activity android:name=".MyFragment" />
+        <activity android:name=".MyAdapter" />
+
+        <activity
+            android:name=".NewsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MineUserInfoEditActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MineUserInfoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CommentDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MineCartoonCommentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MineNovelSubscribeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MineCartoonSubscribeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NewsReadActivity"
+            android:exported="true" />
+        <activity
+            android:name=".htmlActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TestFromHtmlActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UserInfoEditActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SearchResultActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Search_ktActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GoNovelActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SearchActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NovelRankActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NovelDetailsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TestRecycleActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TestTextViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NovelsContentsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MyNovelsReadActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TestNovelActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TestTomcatImageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CartoonsDetailsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NovelReadActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ClassificationPageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RecommendActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CartoonReadActivity"
+            android:exported="true" />
+        <activity
+            android:name=".WelfareActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CartoonRankActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CartoonClassificationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CartoonUpdateActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MineActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NovelActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

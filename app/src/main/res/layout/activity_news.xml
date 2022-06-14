@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".NewsActivity">
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/my_tab"
+        android:layout_width="match_parent"
+        app:tabMode="scrollable"
+        android:layout_height="40dp"
+        app:tabTextColor="@color/black"
+        app:tabSelectedTextColor="#00BFFF"
+        app:tabIndicatorColor="#00BFFF"
+        />
+    <ImageView
+        android:layout_below="@+id/my_tab"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:src="@drawable/rainbow_line"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:id="@+id/head_line"/>
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_below="@+id/head_line"
+        android:layout_above="@+id/footer_layout"
+        android:id="@+id/my_pager2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <include layout="@layout/footer_layout"
+        android:id="@+id/footer_layout"/>
+</RelativeLayout>

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".NovelReadActivity"
+    android:orientation="vertical">
+
+    <!--    标题栏-->
+    <LinearLayout
+        android:id="@+id/ll_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        >
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/back_btn"
+            />
+
+        <TextView
+            android:id="@+id/tv_details_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:text="漫画名称"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="下载"
+            android:gravity="center"
+            android:textColor="#00BFFF"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+    <!--    彩虹线-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:src="@drawable/rainbow_line"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:id="@+id/rainbow_line"
+        android:layout_below="@+id/ll_title"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rainbow_line"
+        android:layout_above="@+id/detail_footer"
+        android:layout_marginBottom="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <!--    作品信息-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal"
+                android:background="@drawable/details_background">
+                <!-- 图片-->
+                <!-- 信息-->
+                <ImageView
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/iv_cartoon_cover"
+                    android:layout_width="0dp"
+                    android:layout_height="180dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/update_p5" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1.5"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp">
+                    <!--            作者-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1">
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            app:cardCornerRadius="50dp">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/cartoons_update_author"/>
+                        </com.google.android.material.card.MaterialCardView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="作者名称"
+                            android:id="@+id/iv_novel_update_author"/>
+                    </LinearLayout>
+                    <!--            类别-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1">
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            app:cardCornerRadius="50dp">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/cartoons_update_type"/>
+                        </com.google.android.material.card.MaterialCardView>
+                        <TextView
+                            android:id="@+id/iv_novel_update_cartoonType"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="类别" />
+                    </LinearLayout>
+                    <!--            人气-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1">
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            app:cardCornerRadius="50dp">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/cartoons_update_type"/>
+                        </com.google.android.material.card.MaterialCardView>
+                        <TextView
+                            android:id="@+id/iv_novel_update_cartoonHot"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="人气" />
+                    </LinearLayout>
+                    <!--            订阅-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1">
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            app:cardCornerRadius="50dp">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/cartoons_update_type"/>
+                        </com.google.android.material.card.MaterialCardView>
+                        <TextView
+                            android:id="@+id/iv_novel_update_cartoon_subscribe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="订阅" />
+                    </LinearLayout>
+
+                    <!--            更新状态-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1">
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            app:cardCornerRadius="50dp">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/cartoons_update_updatetime"/>
+                        </com.google.android.material.card.MaterialCardView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="更新时间"
+                            android:layout_weight="1"
+                            android:id="@+id/iv_novel_update_updateTime"/>
+                    </LinearLayout>
+                    <!--            订阅、阅读按钮-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1">
+                        <Button
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:text="订阅漫画"
+                            android:id="@+id/btn_novel_subscribe"
+                            android:textColor="@color/black"
+
+                            />
+                        <Button
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/btn_novel_continue_read"
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:textColor="@color/black"
+                            android:text="开始阅读" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <cn.carbs.android.expandabletextview.library.ExpandableTextView
+
+                android:id="@+id/etv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="怎么又到了周四，我开始留头发，减重，换风格，开始往前冲，不好意思阿，这一次，肯德基疯狂星期四，我一定要吃，我本是显赫世家的少爷，却被诡计多端的奸人所害！家人弃我！师门逐我！甚至断我灵脉!重生一世，今天肯德基疯狂星期四!谁请我吃？Bro 别他妈垂头丧气了 知道今天是什么日子吗？ 今天是肯德基fucking crazy Thursday！香辣热骨鸡20块钱15个 Bro v我40，我他妈要吃30个" />
+
+            <!--            漫画章节-->
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="漫画章节"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/tv_correct_order"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@+id/tv_reverse_order"
+                    android:textColor="#000000"
+
+                    android:text="正序↑" />
+
+                <TextView
+                    android:id="@+id/tv_reverse_order"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#000000"
+
+                    android:text="倒序↓" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="·连载·"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+            <!--            章节列表-->
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/recyclerviewChapter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <!--            作品讨论-->
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="作品讨论"/>
+
+            <!--            评论区-->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerviewComment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        android:id="@+id/detail_footer"
+        layout="@layout/comment_footer_layout" />
+</RelativeLayout>

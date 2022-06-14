@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="4dp"
+        >
+        <ImageView
+            android:id="@+id/select"
+            android:layout_width="18dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="7dp"
+            android:src="@drawable/search"/>
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="268dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:background="@drawable/search_et_backcolor"
+            android:hint="瀑布流搜索"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/diss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="14dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="取消"/>
+
+
+</RelativeLayout>

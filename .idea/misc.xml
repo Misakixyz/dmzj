@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/dmzj/app/src/main/res/drawable-v24/border_line_while.xml" value="0.23072916666666668" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/drawable-v24/btn_bg_red.xml" value="0.1" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.38153846153846155" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/drawable-v24/setting_style_blue_deep_circle.xml" value="0.14907407407407408" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/drawable/fourcircle.xml" value="0.3277777777777778" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/drawable/indicator_normal.xml" value="0.19583333333333333" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/drawable/my_btn_style.xml" value="0.2" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/drawable/rank_fourth.xml" value="0.3277777777777778" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/drawable/rank_second.xml" value="0.3277777777777778" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/drawable/rank_third.xml" value="0.3277777777777778" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/drawable/rank_top.xml" value="0.3277777777777778" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.23828647925033467" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout-w936dp/activity_login.xml" value="0.278125" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_cartoon_read.xml" value="0.22" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_cartoons_details.xml" value="0.5" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_cartoons_rank.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_classification.xml" value="0.25" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_classification_page.xml" value="0.22" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_comment_detail.xml" value="0.29322916666666665" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_demo.xml" value="0.25" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_display_more.xml" value="0.14666666666666667" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_go_novel.xml" value="0.30625" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_go_on_novel.xml" value="0.37135416666666665" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_home_menu1.xml" value="0.37083333333333335" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_home_menu2.xml" value="0.37083333333333335" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_hot_rank.xml" value="0.3671875" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_html.xml" value="0.18" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_hwtxtpaly.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_mine.xml" value="0.33" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_mine_cartoon_comment.xml" value="0.19166666666666668" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_mine_cartoon_subscribe.xml" value="0.3671875" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_mine_novel_subscribe.xml" value="0.3671875" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_mine_user_info.xml" value="0.22" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_mine_user_info_edit.xml" value="0.25" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_my_novels_read.xml" value="0.14666666666666667" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_news.xml" value="0.19" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_news_main.xml" value="0.2578125" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_news_read.xml" value="0.33" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_novel.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_novel_details.xml" value="0.44" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_novel_rank.xml" value="0.18333333333333332" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_novel_read.xml" value="0.15579710144927536" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_novels_contents.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_rank.xml" value="0.2140625" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_read.xml" value="0.353125" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_recommend.xml" value="0.13854166666666667" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_search.xml" value="0.33" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_search_kt.xml" value="0.37083333333333335" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_search_result.xml" value="0.25" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_second.xml" value="0.36367753623188404" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_test_from_html.xml" value="0.3671875" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_test_novel.xml" value="0.19791666666666666" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_test_read_tomcat_image.xml" value="0.36820652173913043" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_test_recycle.xml" value="0.33" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_test_text_view.xml" value="0.1234375" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_test_tomcat_image.xml" value="0.36367753623188404" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_update.xml" value="0.14666666666666667" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_user_info.xml" value="0.33" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_user_info_edit.xml" value="0.17760416666666667" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/activity_welfare.xml" value="0.33106884057971014" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/adapter_chapterlist.xml" value="0.18333333333333332" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/cartoons_rank_elem_layout.xml" value="0.33" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/cartoons_rank_hot_elem_layout.xml" value="0.18059777102330293" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/cartoons_rank_hot_layout.xml" value="0.37135416666666665" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/cartooons_read_footer_layout.xml" value="0.33" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/chapter_elem_layout.xml" value="0.22" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/classification_elem_layout.xml" value="0.25" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/click_com.xml" value="0.17760416666666667" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/click_down.xml" value="0.17760416666666667" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/click_sub.xml" value="0.17760416666666667" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/comment_elem_layout (2).xml" value="0.37135416666666665" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/comment_elem_layout.xml" value="0.25" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/comment_footer_layout.xml" value="0.18333333333333332" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/custom_item_comment.xml" value="0.1" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/custom_item_reply.xml" value="0.25" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/dialog_read_setting.xml" value="0.2" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/dialog_read_setting_detail.xml" value="0.25" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/dialog_read_setting_footer.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/dialog_read_setting_header.xml" value="0.22" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/edit_style.xml" value="0.16875" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/footer_layout.xml" value="0.22" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/fragment_animation.xml" value="0.2" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/fragment_recommend.xml" value="0.18385416666666668" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/fragment_update.xml" value="0.10520833333333333" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/header_layout.xml" value="0.2421875" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/header_layout_cartoons.xml" value="0.25" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/history_search_layout.xml" value="0.2942708333333333" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/horiation_background.xml" value="0.18385416666666668" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/layout_auto.xml" value="0.33" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/mine_comment_elem_layout.xml" value="0.22" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/myfragment.xml" value="0.2604166666666667" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/news_animation_elem_layout.xml" value="0.2604166666666667" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/news_cartoon_elem_layout.xml" value="0.2604166666666667" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/news_exhibition_elem_layout.xml" value="0.2604166666666667" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/news_novel_elem_layout.xml" value="0.2604166666666667" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/news_picture_elem_layout.xml" value="0.2604166666666667" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/news_recommend_elem_layout.xml" value="0.33" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/news_sound_elem_layout.xml" value="0.2604166666666667" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/novel_contents_elemlayout.xml" value="0.19427083333333334" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/novel_new_elem_layout.xml" value="0.19895833333333332" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/novel_rank_elem_layout.xml" value="0.25" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/page_cartoon_layout.xml" value="0.37135416666666665" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/page_layout.xml" value="0.1621376811594203" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/page_novel_layout.xml" value="0.15579710144927536" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/recommend_layout.xml" value="0.22" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/search_item.xml" value="0.22" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/search_item2.xml" value="0.16927083333333334" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/search_result_cartoon_elem_layout.xml" value="0.22" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/search_result_elem_layout.xml" value="0.18177083333333333" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/subscribe_layout.xml" value="0.3671875" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/test_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/textrecycleview_layout.xml" value="0.2" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/update_elem_layout.xml" value="0.18" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/user_info_head_layout.xml" value="0.33" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/view_chapter_msg.xml" value="0.19791666666666666" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/view_menu_bottom.xml" value="0.25" />
+        <entry key="..\:/Android/dmzj/app/src/main/res/layout/view_menu_top.xml" value="0.16666666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

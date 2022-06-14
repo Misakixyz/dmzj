@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">   //这里是写代码的，可以将top_page.xml和activity_home_menu.xml连接起来
+    <Button
+        android:id="@+id/home_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+
+        android:layout_marginTop="254dp"
+        android:text="专栏收藏"
+        android:textSize="23sp"
+        android:drawableLeft="@mipmap/zhuanlan"
+        android:background="#252525"
+        />
+    <Button
+        android:id="@+id/home_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+
+        android:layout_marginTop="0dp"
+        android:text="新闻收藏"
+        android:textSize="23sp"
+        android:drawableLeft="@mipmap/newspic"
+        android:background="#252525"/>
+    <Button
+        android:id="@+id/home_btn3"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+
+        android:layout_marginTop="0dp"
+        android:text="新闻评论"
+        android:textSize="23sp"
+        android:drawableLeft="@mipmap/newscompic"
+        android:background="#252525"/>
+
+
+</LinearLayout>

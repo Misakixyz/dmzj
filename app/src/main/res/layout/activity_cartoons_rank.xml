@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartoonRankActivity">
+
+    <!-- Header aligned to top -->
+    <include layout="@layout/header_layout_cartoons" />
+
+    <!-- Footer aligned to bottom -->
+    <include
+        layout="@layout/footer_layout" />
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/ll_orderby_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_header">
+
+        <TextView
+            android:id="@+id/tv_order_by_subscriptions_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text=" 订阅排行 " />
+
+        <TextView
+            android:id="@+id/tv_order_by_shu_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/tv_order_by_subscriptions_num"
+            android:text="|" />
+
+        <TextView
+            android:id="@+id/tv_order_by_comment_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/tv_order_by_shu_2"
+            android:text=" 吐槽排行 " />
+
+        <TextView
+            android:id="@+id/tv_order_by_shu_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/tv_order_by_comment_num"
+            android:text="|" />
+
+        <TextView
+            android:id="@+id/tv_order_by_hot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/tv_order_by_shu_1"
+            android:text=" 人气排行 " />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_above="@id/id_footer"
+        android:layout_below="@id/ll_orderby_type"
+
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+        <!--head-->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerviewCartoonRank"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

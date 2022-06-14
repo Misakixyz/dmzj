@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id_footer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:gravity="center"
+
+    >
+
+    <!--底边    -->
+    <LinearLayout
+        android:id="@+id/ll_bottom_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@color/sys_dialog_setting_bg"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="30dp">
+
+            <TextView
+                android:id="@+id/tv_last_chapter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shangyizhang"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <SeekBar
+                android:id="@+id/sb_read_chapter_progress"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:maxHeight="1dp"
+                android:minHeight="1dp"
+                android:progressDrawable="@drawable/seekbar_bg"
+                android:thumb="@mipmap/thumb"/>
+
+            <TextView
+                android:id="@+id/tv_next_chapter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/xiayizhang"
+                android:textColor="@color/white"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:src="@color/sys_dialog_setting_line"
+            tools:ignore="ContentDescription" />
+        <!--底边栏-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            tools:ignore="DisableBaselineAlignment">
+            <!--设置-->
+            <LinearLayout
+                android:id="@+id/ll_setting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="25dp"
+                    android:src="@mipmap/t6"
+                    tools:ignore="ContentDescription"
+                    android:id="@+id/iv_setting"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="设置"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+            <!--夜间-->
+            <LinearLayout
+                android:id="@+id/ll_night_and_day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:id="@+id/iv_night_and_day"
+                    android:layout_width="40dp"
+                    android:layout_height="25dp"
+                    android:src="@mipmap/ao"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/tv_night_and_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="夜间"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+            <!--目录-->
+            <LinearLayout
+                android:id="@+id/ll_chapter_list"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="25dp"
+                    android:src="@mipmap/t3"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="目录"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+            <!--缓存-->
+            <LinearLayout
+                android:id="@+id/ll_download_cache"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="25dp"
+                    android:src="@mipmap/download"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/tv_download_progress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="缓存"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <!--详细-->
+    <LinearLayout
+        android:id="@+id/ll_bottom_view_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/sys_dialog_setting_bg"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="gone"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@mipmap/r6"
+                android:layout_marginStart="5dp"
+                tools:ignore="ContentDescription" />
+
+            <SeekBar
+                android:id="@+id/sb_brightness_progress"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:maxHeight="1dp"
+                android:minHeight="1dp"
+                android:progress="50"
+                android:progressDrawable="@drawable/seekbar_bg"
+                android:thumb="@mipmap/thumb" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@mipmap/r4"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/tv_system_brightness"
+                android:layout_marginLeft="20dp"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="@string/xitong"
+                android:textSize="15sp"
+                android:background="@drawable/setting_btn_bg"
+                android:textColor="@drawable/setting_btn_bg_color"
+                android:layout_marginStart="20dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_reduce_text_size"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/setting_btn_bg2"
+                android:gravity="center"
+                android:text="@string/Ajian"
+                android:textColor="@color/sys_dialog_setting_word_bright" />
+
+            <TextView
+                android:id="@+id/tv_text_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_20"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="@color/sys_dialog_setting_word_bright"/>
+
+            <TextView
+                android:id="@+id/tv_increase_text_size"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/setting_btn_bg2"
+                android:textSize="18sp"
+                android:text="@string/Ajia"
+                android:textColor="@color/sys_dialog_setting_word_bright"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center|left"
+            tools:ignore="RtlHardcoded">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/iv_common_style"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/setting_common_style_btn_bg"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/iv_leather_style"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/setting_leather_style_btn_bg"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/iv_protect_eye_style"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/setting_protect_eye_style_btn_bg"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/iv_breen_style"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/setting_breen_style_btn_bg"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/iv_blue_deep_style"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/setting_blue_deep_style_btn_bg"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

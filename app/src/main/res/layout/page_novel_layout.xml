@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textIsSelectable="true"
+        android:id="@+id/onei"
+        />
+    <!--时间最右-->
+    <TextView
+        android:id="@+id/read_time_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="#AAAAAA"
+        android:text="00:00 " />
+    <!--页码中间-->
+    <TextView
+        android:id="@+id/read_countNum_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1/16  "
+        android:layout_toLeftOf="@id/read_time_TV"
+        android:layout_alignParentBottom="true"
+        android:background="#AAAAAA"
+        />
+    <!--章节最左-->
+    <TextView
+        android:id="@+id/read_title_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第41话  "
+        android:background="#AAAAAA"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/read_countNum_TV"
+        />
+
+</RelativeLayout>
